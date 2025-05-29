@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maradona_Sniper_Craft v1.0</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    header {
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #00ffc8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .hero h1 {
+      font-size: 3em;
+      color: #00ffc8;
+    }
+    .hero p {
+      font-size: 1.5em;
+    }
+    .btn {
+      padding: 15px 30px;
+      margin: 10px;
+      background-color: #00ffc8;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .features, .pricing, .contact {
+      padding: 60px 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .features h2, .pricing h2, .contact h2 {
+      text-align: center;
+      color: #00ffc8;
+    }
+    .feature-grid, .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maradona_Sniper_Craft v1.0</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <div class="hero">
+    <h1>Trade Like a Legend</h1>
+    <p>Dominate the markets with lightning-fast signals and full automation.</p>
+    <button class="btn">Download MT4</button>
+    <button class="btn">Download MT5</button>
+  </div>  <section id="features" class="features">
+    <h2>Why Choose Maradona_Sniper_Craft?</h2>
+    <div class="feature-grid">
+      <div class="card">Multi-Pair Signal Detection</div>
+      <div class="card">Ultra-Fast Execution</div>
+      <div class="card">Trend Confirmation Logic</div>
+      <div class="card">News & Session Filters</div>
+      <div class="card">Fully Automated</div>
+      <div class="card">Fixed Lot Size (0.01)</div>
+    </div>
+  </section>  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-grid">
+      <div class="card">
+        <h3>Standard License</h3>
+        <p>✔️ 1 Real Account</p>
+        <p>✔️ Full Automation</p>
+        <p>✔️ Free Updates</p>
+        <h4>R1500</h4>
+      </div>
+      <div class="card">
+        <h3>Pro License</h3>
+        <p>✔️ Unlimited Accounts</p>
+        <p>✔️ Lifetime Updates</p>
+        <p>✔️ Priority Support</p>
+        <h4>R3000</h4>
+      </div>
+    </div>
+  </section>  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@maradonasnipercraft.com</p>
+  </section>  <footer>
+    &copy; 2025 Maradona_Sniper_Craft. All rights reserved.
+  </footer>
+</body>
+</html>
